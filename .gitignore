@@ -1,0 +1,22 @@
+# Output artifacts (committed = freeze, not committed = rebuildable)
+output/*.onnx
+output/*.tflite
+
+# Intermediate TF SavedModel (always rebuildable)
+cache/
+
+# IDE
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.conda/
+.env/
+
+# OS
+Thumbs.db
+.DS_Store

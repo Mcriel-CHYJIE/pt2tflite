@@ -1,0 +1,11 @@
+# Conversion environment for pt2tflite
+# conda create -n pt2tflite python=3.10
+
+torch>=2.0.0
+onnx>=1.15
+onnx2tf>=1.26
+tensorflow>=2.16,<2.17
+tf-keras>=2.16
+onnxruntime>=1.18
+ultralytics>=8.4
+numpy<2.0
